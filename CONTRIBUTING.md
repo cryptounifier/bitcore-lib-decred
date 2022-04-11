@@ -10,14 +10,6 @@ If there are any questions, etc., please feel to ask in one of the community cha
 - https://labs.bitpay.com/c/bitcore (Support Forum)
 - https://gitter.im/bitpay/bitcore (Development Chat)
 
-## Quick Checklist
-
-Ideally, please make sure to run:
-
-* `gulp test` passes all the tests (We run tests against Node.js v0.10, v0.12, io.js, and modern browsers)
-* `gulp coverage` covers 100% of the branches of your code (See `coverage/lcov-report/index.html` for details)
-* `gulp lint` doesn't complain about your changes
-
 ## Design Guidelines
 
 These are some global design goals in bitcore that any change must adhere.

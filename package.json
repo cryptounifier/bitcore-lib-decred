@@ -1,15 +1,10 @@
 {
-  "name": "decredjs-lib",
-  "version": "0.1.1",
+  "name": "@cryptounifier/bitcore-lib-decred",
+  "version": "0.1.4",
   "description": "A pure and powerful JavaScript Decred library.",
   "author": "BitPay <dev@bitpay.com> & Decred Team & Life",
   "main": "index.js",
-  "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
-  },
+  "scripts": {},
   "contributors": [
     {
       "name": "Daniel Cousens",
@@ -84,34 +79,20 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bn.js": "=2.0.4",
-    "bs58": "=2.0.0",
-    "buffer-compare": "=1.0.0",
-    "elliptic": "=3.0.3",
+    "bn.js": "=4.11.8",
+    "bs58": "^4.0.1",
+    "buffer-compare": "=1.1.1",
+    "crypto-browserify": "git://github.com/cryptounifier/crypto-browserify-decred.git#main",
+    "elliptic": "^6.5.3",
     "inherits": "=2.0.1",
-    "lodash": "=4.17.11"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "brfs": "^2.0.1",
-    "chai": "^4.2.0",
-    "crypto-browserify": "git://github.com/decred/crypto-browserify.git#master-legacy",
-    "sinon": "^1.13.0",
-    "@kollavarsham/gulp-coveralls": "^0.2.2",
     "browserify": "^16.2.3",
-    "gulp": "^4.0.0",
-    "gulp-mocha": "^6.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-shell": "^0.6.5",
-    "gulp-uglify": "^2.1.2",
+    "chai": "^4.2.0",
     "istanbul": "^0.4.5",
-    "karma": "^3.1.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-mocha": "^1.3.0",
-    "mocha": "^5.2.0"
-  },
-  "engines": {
-    "node": "4.2.1",
-    "npm": ">=2.0.0"
+    "sinon": "^1.13.0"
   },
   "license": "MIT"
 }
